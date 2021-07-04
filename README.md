@@ -2,6 +2,7 @@ Introduction:
 I created this project with node.js, express, and mySQL. I use Postman for manual testing.
 
 APIs:
+
 	GET: doctor/getAll 
         - retrieve a list of doctors
 	
@@ -30,6 +31,7 @@ APIs:
 
 
 TABLES:
+
 	Doctors: 
 		- id: integer 
 		- first_name: string
