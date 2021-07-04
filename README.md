@@ -53,12 +53,14 @@ Instruction:
         - ./screenshots/mysql/appointments.png
 
  2. update the following password and database name in data.js to your own values.
- const con = mysql.createConnection({
-   host:"localhost",
-   user:"root",
-   password:"****YOUR PASSWORD*******",
-   database:"***YOUR DATABASE NAME***"
- })
+ 	
+	-
+		 const con = mysql.createConnection({
+		   host:"localhost",
+		   user:"root",
+		   password:"****YOUR PASSWORD*******",
+		   database:"***YOUR DATABASE NAME***"
+		 })
 
  3. To start server, go to terminal, "npm start"
 
